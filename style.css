@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-height: 10vh;
+  margin: 0;
+  background-color: rgb(255, 255, 254);
+}
+
+h1 {
+  background-color: rgb(51, 141, 219);
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  margin: 0;
+}
+
+button {
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
