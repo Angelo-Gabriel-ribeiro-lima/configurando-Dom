@@ -6,25 +6,25 @@ body {
   gap: 1rem;
   min-height: 10vh;
   margin: 0;
-  background-color: rgb(255, 255, 254);
+  background-color: rgb(249, 249, 244);
 }
 
 h1 {
-  background-color: rgb(51, 141, 219);
-  color: #ffffff;
+  background-color: rgb(248, 249, 250);
+  color: #020101;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 40px;
-  padding: 0.8rem 1.5rem;
+  font-size: 30px;
+  padding: 2rem 3rem;
   border-radius: 5px;
   margin: 0;
 }
 
 button {
-  background-color: blue;
+  background-color: rgba(0, 103, 7, 0.896);
   color: #ffffff;
   border: none;
   border-radius: 5px;
-  padding: 0.6rem 1.2rem;
+  padding: 0.8rem 1.75rem;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
@@ -33,3 +33,60 @@ button:hover {
   background-color: darkblue;
 }
 
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+
+p {
+  color: #555555;
+  font-family: Arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 600px;
+  text-align: center;
+}
+
+
+a {
+  color: #006707;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #004d05;
+  text-decoration: underline;
+}
+
+
+input[type="text"] {
+  padding: 0.75rem 1rem;
+  border: 3px solid #cccccc;
+  border-radius: 30px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+input[type="text"]:focus {
+  border-color: #006707;
+  box-shadow: 0 0 0 3px rgba(0, 103, 7, 0.2);
+}
+
+
+.card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
